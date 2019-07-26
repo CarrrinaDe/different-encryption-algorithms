@@ -1,5 +1,3 @@
-; Deaconu Andreea-Carina, 324CC
-
 extern puts
 extern printf
 extern strlen
