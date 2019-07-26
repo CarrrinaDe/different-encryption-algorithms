@@ -1,6 +1,6 @@
-tema2: tema2.asm
-	nasm -f elf32 -o tema2.o $<
-	gcc -m32 -o $@ tema2.o
+tasks: tasks.asm
+	nasm -f elf32 -o tasks.o $<
+	gcc -m32 -o $@ tasks.o
 
 clean:
-	rm -f tema2 tema2.o
+	rm -f tasks tasks.o
